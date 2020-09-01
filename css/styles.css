@@ -84,7 +84,7 @@ text-align: center;
 background-color: #ef8172;
 color: #ffff;
 }
-.testimonial-carousel{
+.carousel-item{
   padding: 7% 15%;
 }
 .testimonial-img{
@@ -100,7 +100,7 @@ color: #ffff;
 }
 
 .press-img{
-  width: 15%;
+  width: 10%;
   margin: 20px 20px 50px;
 }
 
@@ -108,6 +108,15 @@ color: #ffff;
 text-align: center;
 padding: 7% 15%;
 }
+
+.cardsfee{
+  padding-bottom: 20px;
+}
+
+.sign-button{
+margin-top: 40px;
+}
+
 #cta{
   padding: 7% 15%;
   text-align: center;
