@@ -7,7 +7,7 @@ body{
   color: #fff;
 }
 .first-container{
-padding: 3% 15%;
+padding: 3% 10% 5%;
 }
 /* Navigation Bar */
 .navbar{
@@ -35,6 +35,8 @@ margin: 5% 3% 5% 0;
 .iphone-img{
   width: 60%;
   transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
 }
 
 h1{
@@ -62,6 +64,8 @@ p{
 
 #features{
   padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
 }
 .feature-box{
   text-align: center;
@@ -103,27 +107,43 @@ color: #ffff;
   width: 10%;
   margin: 20px 20px 50px;
 }
-
+/* Pricing section */
 #pricing{
 text-align: center;
-padding: 7% 15%;
+padding: 100px;
 }
 
-.cardsfee{
-  padding-bottom: 20px;
+.pricing-column{
+  padding: 3% 2%;
 }
 
 .sign-button{
-margin-top: 40px;
+margin-top: 55px;
 }
 
 #cta{
   padding: 7% 15%;
   text-align: center;
-  background-color: #ef8172;
+  background-color: #ff4c68;
   color: #ffff;
 }
 
 #footer{
   text-align: center;
+  padding: 5%;
+  background-color: #ffff;
+}
+.icons-media{
+  color: black;
+  padding: 3% 1% 2%;
+}
+@media (max-width:1028px){
+  #title{
+    text-align: center;
+  }
+  .iphone-img{
+    position: static;
+      transform: rotate(0deg);
+      width: 50%;
+  }
 }
