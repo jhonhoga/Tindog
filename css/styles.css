@@ -1,13 +1,39 @@
 body{
   font-family: "Montserrat";
+  text-align: center;
 }
 
-#title{
+h1, h2, h3, h4, h5, h6{
+  font-weight: bold;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+/* Headings */
+.big-heading{
+  font-weight: bold;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+.section-heading{
+  font-size: 2rem;
+  line-height: 1.5;
+}
+/* containers */
+.container-fluid{
+padding: 7% 15%;
+}
+
+/* Sections */
+.colored-section{
   background-color: #ff4c68;
   color: #fff;
 }
-.first-container{
-padding: 3% 10% 5%;
+.white-section{
+  background-color: #fff;
 }
 /* Navigation Bar */
 .navbar{
@@ -26,7 +52,12 @@ padding: 3% 10% 5%;
   font-size: 1.5rem;
   font-weight: lighter;
 }
+/* Title Section */
 
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
 /* Download Buttons */
 .download-button{
 margin: 5% 3% 5% 0;
@@ -39,36 +70,17 @@ margin: 5% 3% 5% 0;
   right: 30%;
 }
 
-h1{
-
-  font-weight: bold;
-  font-size: 3.5rem;
-  line-height: 1.5;
-}
-h2{
-  font-weight: bold;
-  font-size: 2rem;
-  line-height: 1.5;
-}
-
-h3{
-  font-weight: bold;
-  font-size: 1.5rem;
-}
-
-p{
-  color: #8f8f8f;
-}
 
 /* Features Section */
 
 #features{
-  padding: 7% 15%;
-  background-color: #fff;
   position: relative;
 }
+.feature-tittle{
+font-size: 1.5rem,
+}
+
 .feature-box{
-  text-align: center;
   padding: 5%;
 }
 .feature-icon{
@@ -80,17 +92,17 @@ p{
   color: #ff4c68;
 }
 
-
 /* Testimonial Section */
 
 #testimonials{
-text-align: center;
 background-color: #ef8172;
-color: #ffff;
 }
-.carousel-item{
-  padding: 7% 15%;
+
+.testimonial-text{
+  font-size: 2rem;
+  line-height: 1.5;
 }
+
 .testimonial-img{
   border-radius: 100%;
   width: 10%;
@@ -99,7 +111,6 @@ color: #ffff;
 
 #press{
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -109,8 +120,12 @@ color: #ffff;
 }
 /* Pricing section */
 #pricing{
-text-align: center;
 padding: 100px;
+}
+
+.price-text{
+  font-size: 2rem;
+  line-height: 1.5;
 }
 
 .pricing-column{
@@ -121,17 +136,8 @@ padding: 100px;
 margin-top: 55px;
 }
 
-#cta{
-  padding: 7% 15%;
-  text-align: center;
-  background-color: #ff4c68;
-  color: #ffff;
-}
-
 #footer{
-  text-align: center;
   padding: 5%;
-  background-color: #ffff;
 }
 .icons-media{
   color: black;
